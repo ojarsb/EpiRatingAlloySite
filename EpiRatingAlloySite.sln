@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.EpiRatingAlloySite", "Geta.EpiRatingAlloySite\Geta.EpiRatingAlloySite.csproj", "{61D46D1D-77E9-4380-8F40-AA283E633FF5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Epi.Rating.Admin", "Geta.Epi.Rating.Admin\Geta.Epi.Rating.Admin.csproj", "{5733633A-06EF-4295-A23C-4720717AF1BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Epi.Rating.PageProperty", "Geta.Epi.Rating.PageProperty\Geta.Epi.Rating.PageProperty.csproj", "{9CD1ED1F-5024-4958-B5FB-F78C2C1E341C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.AlloyDemo", "Geta.AlloyDemo\Geta.AlloyDemo.csproj", "{6FA51284-08EC-4032-AF77-D6F2ECA790D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61D46D1D-77E9-4380-8F40-AA283E633FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61D46D1D-77E9-4380-8F40-AA283E633FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61D46D1D-77E9-4380-8F40-AA283E633FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61D46D1D-77E9-4380-8F40-AA283E633FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5733633A-06EF-4295-A23C-4720717AF1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5733633A-06EF-4295-A23C-4720717AF1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5733633A-06EF-4295-A23C-4720717AF1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,8 +23,15 @@ Global
 		{9CD1ED1F-5024-4958-B5FB-F78C2C1E341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD1ED1F-5024-4958-B5FB-F78C2C1E341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD1ED1F-5024-4958-B5FB-F78C2C1E341C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA51284-08EC-4032-AF77-D6F2ECA790D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA51284-08EC-4032-AF77-D6F2ECA790D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA51284-08EC-4032-AF77-D6F2ECA790D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA51284-08EC-4032-AF77-D6F2ECA790D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F54AEC48-ACE3-4E45-B57C-1B0189E49E84}
 	EndGlobalSection
 EndGlobal

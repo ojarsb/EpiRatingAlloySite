@@ -1,0 +1,34 @@
+﻿@using EPiServer.Shell
+@using EPiServer.Framework.Web.Resources
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+
+    @Html.Raw(ClientResources.RenderResources("ShellCore"))
+    @Html.Raw(ClientResources.RenderResources("ShellCoreLightTheme"))
+    <link type="text/css" rel="stylesheet" href='@Paths.ToClientResource("CMS", "/App_Themes/Default/Styles/ToolButton.css")' />
+    <link type="text/css" rel="stylesheet" href='@Paths.ToClientResource("CMS", "/App_Themes/Default/Styles/system.css")' />
+    <link type="text/css" rel="stylesheet" href='@Paths.ToClientResource("CMS", "ClientResources/Epi/Base/CMS.css")' />
+    <link type="text/css" rel="stylesheet" href='@Paths.ToClientResource("Geta.Epi.Rating.Admin", "Styles/rating.css")' />
+    <link type="text/css" rel="stylesheet" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" integrity="sha384-0+oHgv887Bf6R5zNNUEA1S3uGi50ThGLGlBPj2b45pM+4waOZ+tTOV5EgvHS9cv4" crossorigin="anonymous"/>
+    <link type="text/css" rel="stylesheet" href="//cdn.datatables.net/buttons/1.1.1/css/buttons.dataTables.min.css" integrity="sha384-+gDdQ+wPJnvpg+GAYKltqZXTUO8MDW1MfzZ1FnLAZDzp0kjKrxlbWVfT72s5X43U" crossorigin="anonymous"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js" integrity="sha384-XxcvoeNF5V0ZfksTnV+bejnCsJjOOIzN6UVwF85WBsAnU3zeYh5bloN+L4WLgeNE" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js" integrity="sha384-QyXw3+FbFWMGvHERjd2qCYZRk+b2Pjmtq15C/hioWsjhRQ7ogFIq/TyxV45EzU1H" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/buttons/1.1.1/js/dataTables.buttons.min.js" integrity="sha384-nYfhcQ+NTzjusfvnh68NGAPgH+mhOhFq+h1jEBmGhrFVt0WZhCYcH506/TPUC2De" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js" integrity="sha384-yib/J8n+cev8VyEYY+4A3nSvnqCRhEkxUQhVFp8X+YuIXd0qhT3rTYXqel0zWzni" crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/buttons/1.1.1/js/buttons.html5.min.js" integrity="sha384-E/Eb1xfFgABBnpoAWYMW7NDDiZdEmOaC6f0CIx9j3xww4gmloyXU7T4FxoD2Lnv3" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js" integrity="sha384-+vW/ZDJgLb6kAcUzvdWiIbsIQ17Gw6oYLEffCkuZo2gWHRR8Q6pbG/GrXVZfT47I" crossorigin="anonymous"></script>
+    <script type="text/javascript" src='@Paths.ToClientResource("Geta.Epi.Rating.Admin", "Scripts/rating-admin.js")'></script>
+</head>
+<body>
+    
+    @RenderBody()
+
+</body>
+</html>
